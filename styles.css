@@ -1,0 +1,166 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #333333;
+}
+
+.box-shadow {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+    text-align: center;
+    border: 2px solid #666666;
+    border-radius: 3px;
+    padding: 10px 0;
+    margin: 15px -2px;
+    width: 100%;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.button:hover {
+    border: 2px solid #0071BC;
+    color: #0071BC;
+}
+
+
+.content {
+    max-width: 640px;
+    margin: auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-profile {
+    height: 200px;
+    width: 200px;
+}
+
+.img-icon {
+    height: auto;
+    width: 30px;
+    margin: 5px;
+}
+
+/* The side navigation menu */
+.sidebar {
+    width: 240px;
+    margin: 0 20px;
+    padding: 20px;
+    position: fixed;
+    left: 50%;
+    margin-left: -580px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #F2F2F2;
+}
+
+.sidebar-secondary {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.icon-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 5px 0;
+    word-wrap: break-word;
+}
+
+.menu-item {
+    text-align: right;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.menu-item h3 {
+    font-size: 18pt;
+    display: inline-block;
+    border-bottom: 3px solid transparent;
+    color: #666666;
+}
+
+.menu-item h3:hover {
+    border-bottom: 3px solid #0071BC;
+    color: #666666;
+}
+
+.active {
+    border-bottom: 3px solid #0071BC !important;
+    color: #333333 !important;
+}
+
+.feature {
+    height: auto;
+    margin: 0 20px;
+    padding: 10px;
+    background-color: #0071BC;
+    color: white;
+}
+
+.feature h1 {
+    font-size: 48pt;
+}
+
+.feature h4 {
+    color: #333333;
+}
+
+.feature {
+    font-size: 18px;
+}
+
+.section {
+    margin: 20px;
+}
+
+.section h1 {
+    font-size: 36pt;
+    margin: 0;
+    color: #333333;
+}
+
+.section-content {
+    height: auto;
+    padding: 10px;
+    border-left: 10px solid #0071BC;
+}
+
+.section-content h2 span {
+    font-weight: 100;
+    font-style: italic;
+}
+
+.section-content h3 {
+    color: #333333;
+    margin: 5px 0;
+}
+
+.section-content p {
+    margin: 5px 0;
+}
+
